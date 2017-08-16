@@ -126,7 +126,7 @@ html, body {
 	}
 /* END */
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
 	margin: 10px 0;
 }
 
@@ -297,19 +297,6 @@ p {
 	}
 /* END */
 
-.responsive-text {
-	padding: 5px 10px 5px 0;
-	float: left;
-    width: 74.99999%;
-	line-height: 160%;
-}
-
-.responsive-image img {
-	padding: 5px;
-	float: left;
-    width: 24.99999%;
-}
-
 
 @media only screen and (max-width: 760px) {
     
@@ -405,15 +392,7 @@ p {
 	.description {
 		display: block;
 	}
-	
-	.responsive-image img {
-		display: none;
-	}
-	
-	.responsive-text {
-		width: 100%;
-	}
-	
+
 	.ft-disclaimer {
 		padding: 38px 0 0 0;
 		width: 33.22222%;
